@@ -33,7 +33,7 @@ header {
 }
 
 .scrolling-text-container {
-  display: inline;
+  display: inline-flex;
   white-space: nowrap;
   animation: scrolling-banner 10s linear infinite;
 }
