@@ -25,6 +25,16 @@ header {
     border-radius: 8px;
     margin-bottom: 2rem;
 }
+.scrolling-text {
+  height: 50px;
+  overflow: hidden;
+}
+
+.scrolling-text marquee {
+  font-size: 24px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
 
 .square-btn {
     display: flex;
