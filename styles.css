@@ -29,7 +29,7 @@ header {
 }
 
 .square-btn {
-    display: block;
+    display: flex;
     width: 60%;
     margin: 1rem auto;
     padding-top: 60%;
