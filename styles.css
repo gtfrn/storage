@@ -9,7 +9,13 @@ body {
     backdrop-filter: blur(10px);
     font-family: Arial, sans-serif;
 }
-
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 2rem;
+}
 header {
     text-align: center;
     padding: 1rem 2rem;
@@ -18,41 +24,6 @@ header {
     border: 2px solid black;
     border-radius: 8px;
     margin-bottom: 2rem;
-}
-.banner {
-    position: absolute;
-    overflow: hidden;
-    width: 100%;
-    margin-bottom: 30rem;
-    margin-top: 1rem;
-    z-index: 2; /* Add this line */
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding-top: 2rem;
-    margin-top: 100px; /* Increase the margin */
-}
-.scrolling-text {
-    display: inline-block;
-    position: absolute;
-    white-space: nowrap;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: black;
-    animation: scroll 10s linear infinite;
-}
-
-@keyframes scroll {
-    from {
-        transform: translateX(100%);
-    }
-    to {
-        transform: translateX(-100%);
-    }
 }
 
 .square-btn {
