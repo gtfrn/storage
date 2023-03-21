@@ -25,6 +25,31 @@ header {
     border-radius: 8px;
     margin-bottom: 2rem;
 }
+.banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.scrolling-text {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
 
 .square-btn {
     display: flex;
