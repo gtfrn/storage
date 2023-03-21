@@ -26,36 +26,16 @@ header {
     margin-bottom: 2rem;
 }
 .scrolling-banner {
-  overflow: hidden;
-  position: relative;
-  margin: 10px 0;
-  height: 1.2em;
-}
-
-.scrolling-text-container {
-  display: inline-flex;
-  white-space: nowrap;
-  animation: scrolling-banner 10s linear infinite;
-}
-
-.scrolling-text {
-  font-size: 18px;
+  font-size: 1.5em;
   font-weight: bold;
   color: #333;
-}
-
-.scrolling-text-gap {
-  display: inline-block;
-  width: calc(100% + 1ch);
-}
-
-@keyframes scrolling-banner {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-200%);
-  }
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .square-btn {
