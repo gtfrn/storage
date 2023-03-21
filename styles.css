@@ -13,13 +13,14 @@ body {
 header {
     text-align: center;
     padding: 2rem 0;
-    font-size: 2.1rem;
-    color: rgba(21, 21, 21, 0.85);
-    text-shadow: 1px 1px 0px rgba(21, 21, 21, 0.5),
-                 2px 2px 0px rgba(21, 21, 21, 0.4),
-                 3px 3px 0px rgba(21, 21, 21, 0.3),
-                 4px 4px 0px rgba(21, 21, 21, 0.2),
-                 5px 5px 0px rgba(21, 21, 21, 0.1);
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5),
+                 2px 2px 0px rgba(255, 255, 255, 0.4),
+                 3px 3px 0px rgba(255, 255, 255, 0.3),
+                 4px 4px 0px rgba(255, 255, 255, 0.2),
+                 5px 5px 0px rgba(255, 255, 255, 0.1);
+    -webkit-text-stroke: .2px black;
 }
 
 .square-btn {
