@@ -32,20 +32,24 @@ header {
   height: 1.2em;
 }
 
+.scrolling-text-container {
+  display: flex;
+  animation: scrolling-banner 10s linear infinite;
+}
+
 .scrolling-text {
-  position: absolute;
   white-space: nowrap;
-  animation: scrolling-banner 20s linear infinite;
   font-size: 18px;
   font-weight: bold;
   color: #333;
+  margin-right: 100%;
 }
 
 @keyframes scrolling-banner {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
-  50%, 100% {
+  100% {
     transform: translateX(-100%);
   }
 }
