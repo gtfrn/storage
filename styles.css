@@ -32,8 +32,8 @@ header {
     overflow: hidden;
     width: 100%;
     margin-bottom: 2rem;
+    margin-top: 1rem;
 }
-
 .scrolling-text {
     display: inline-block;
     position: absolute;
