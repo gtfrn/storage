@@ -43,12 +43,17 @@ header {
   color: #333;
 }
 
+.scrolling-text-gap {
+  display: inline-block;
+  width: 100%;
+}
+
 @keyframes scrolling-banner {
   0% {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(calc(-100% - 1ch));
+    transform: translateX(-200%);
   }
 }
 
