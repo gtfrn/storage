@@ -16,6 +16,7 @@ body {
     align-items: center;
     width: 100%;
     padding-top: 2rem;
+    margin-top: 2rem; /* Add this line */
 }
 
 header {
