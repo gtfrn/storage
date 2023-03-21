@@ -33,6 +33,7 @@ header {
 }
 
 .scrolling-text-container {
+  display: inline;
   white-space: nowrap;
   animation: scrolling-banner 10s linear infinite;
 }
@@ -45,7 +46,7 @@ header {
 
 .scrolling-text-gap {
   display: inline-block;
-  width: 100%;
+  width: calc(100% + 1ch);
 }
 
 @keyframes scrolling-banner {
