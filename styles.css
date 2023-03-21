@@ -25,18 +25,6 @@ header {
     border-radius: 8px;
     margin-bottom: 2rem;
 }
-.scrolling-banner {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #333;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-}
 
 .square-btn {
     display: flex;
