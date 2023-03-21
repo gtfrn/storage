@@ -28,11 +28,13 @@ header {
     z-index: 2; /* Add this line */
 }
 
-.buttons-container {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px; /* Increase the margin */
+    width: 100%;
+    padding-top: 2rem;
+    margin-top: 100px; /* Increase the margin */
 }
 .scrolling-text {
     display: inline-block;
