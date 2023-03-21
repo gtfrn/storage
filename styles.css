@@ -27,30 +27,27 @@ header {
 }
 .scrolling-banner {
   overflow: hidden;
-  white-space: nowrap;
   position: relative;
   margin: 10px 0;
+  height: 1.2em;
 }
 
-.scrolling-banner p {
-  display: inline-block;
+.scrolling-text {
+  position: absolute;
+  white-space: nowrap;
   animation: scrolling-banner 10s linear infinite;
   font-size: 18px;
   font-weight: bold;
   color: #333;
-  position: relative;
 }
 
-.scrolling-banner p::after {
-  content: attr(data-text);
-  position: absolute;
-  left: 100%;
-  white-space: nowrap;
+.scrolling-text:nth-child(2) {
+  animation-delay: 5s;
 }
 
 @keyframes scrolling-banner {
   0% {
-    transform: translateX(0);
+    transform: translateX(100%);
   }
   100% {
     transform: translateX(-100%);
