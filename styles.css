@@ -34,6 +34,14 @@ header {
     width: 100%;
     margin-bottom: 2rem;
     margin-top: 1rem;
+    z-index: 2; /* Add this line */
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem; /* Increase the margin */
 }
 .scrolling-text {
     display: inline-block;
