@@ -56,6 +56,10 @@ header {
     align-items: center;
 }
 
+.reserve-btn {
+    background-color: rgba(244, 0, 255, 1);
+}
+
 #payBillBtn {
     background-color: rgb(20, 194, 139);
 }
