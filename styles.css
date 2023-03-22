@@ -150,7 +150,7 @@ header {
     margin-top: 40px;
     margin-bottom: 40px;
     color: black;
-    width: 30%; /* Add this line to set the width of the header */
+    width: 200px; /* Add this line to set the width of the header */
     margin-left: auto; /* Add this line to center the header */
     margin-right: auto; /* Add this line to center the header */
     border: 2px solid black;
