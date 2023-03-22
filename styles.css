@@ -146,11 +146,10 @@ header {
 }
 .facility-heading {
     font-size: 24px;
-    font-weight: bold;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 30px;
-    color: white;
+    color: black;
     width: 20%; /* Add this line to set the width of the header */
     margin-left: auto; /* Add this line to center the header */
     margin-right: auto; /* Add this line to center the header */
