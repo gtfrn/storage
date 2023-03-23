@@ -178,18 +178,16 @@ header {
   line-height: 40px;
 }
 .info-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  color: black;
+  width: 300px; /* Add this line to set the width of the header */
+  margin-left: auto; /* Add this line to center the header */
+  margin-right: auto; /* Add this line to center the header */
   border: 2px solid black;
-  padding: 10px;
-  margin-top: 60px;
-  width: 250px;
-  border-radius: 8px;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box; /* To ensure padding doesn't expand the box beyond the specified width */
+  border-radius: 6px;
 }
 
 .info-title {
