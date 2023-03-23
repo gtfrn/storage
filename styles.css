@@ -168,6 +168,7 @@ header {
   width: 40px;
   height: 40px;
   color: black;
+  background-color: none;
   border: 2px solid black;
   border-radius: 4px;
   cursor: pointer;
