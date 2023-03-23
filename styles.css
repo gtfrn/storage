@@ -169,7 +169,7 @@ header {
   height: 40px;
   color: black;
   border: 2px solid black;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
