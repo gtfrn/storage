@@ -47,15 +47,13 @@
   const header = document.querySelector('header');
 
   function updateButtonPosition() {
-    const windowHeight = window.innerHeight;
-    const scrollY = window.scrollY;
-    const ourFacilityTop = ourFacility.getBoundingClientRect().top + scrollY;
-    const headerBottom = header.getBoundingClientRect().bottom + scrollY;
-    const maxTop = ourFacilityTop - emailButton.offsetHeight;
+    if (window.innerWidth > 768) {
+      const windowHeight = window.innerHeight;
+      const scrollY = window.scrollY;
+      const ourFacilityTop = ourFacility.getBoundingClientRect().top + scrollY;
+      const headerBottom = header.getBoundingClientRect().bottom + scrollY;
+      const maxTop = ourFacilityTop - emailButton.offsetHeight;
 
-    if (window.innerWidth <= 768) {
-      emailButton.style.top = headerBottom + 10 + 'px';
-    } else {
       const buttonTop = Math.min(Math.max(scrollY + windowHeight / 2, headerBottom + 10), maxTop);
       emailButton.style.top = buttonTop + 'px';
     }
@@ -66,6 +64,7 @@
 
   updateButtonPosition();
 });
+
 </script>
 </body>
 </html>
