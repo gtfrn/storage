@@ -166,9 +166,8 @@ header {
 
 #email-button button {
   width: 40px;
-  height: 40px;
+  height: 60px;
   color: black;
-  background-color: none;
   border: 2px solid black;
   border-radius: 4px;
   cursor: pointer;
@@ -179,6 +178,3 @@ header {
   line-height: 40px;
 }
 
-#email-button button:hover {
-  background-color: #1669d2;
-}
