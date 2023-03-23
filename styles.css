@@ -204,3 +204,15 @@ header {
   font-size: 18px;
   width: 100%; /* Full width of container */
 }
+.24-hour-access {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; /* adjust as needed */
+}
+
+.24-hour-access span {
+  font-size: 40px; /* adjust as needed */
+  margin-bottom: 10px; /* adjust as needed */
+}
