@@ -41,30 +41,5 @@
         setTimeout(showSlides, 4000); // Change image every 4 seconds
     }
 </script>
-<script>document.addEventListener('DOMContentLoaded', function () {
-  const emailButton = document.querySelector('.email-button');
-  const ourFacility = document.querySelector('#our-facility');
-  const header = document.querySelector('header');
-
-  function updateButtonPosition() {
-    if (window.innerWidth > 768) {
-      const windowHeight = window.innerHeight;
-      const scrollY = window.scrollY;
-      const ourFacilityTop = ourFacility.getBoundingClientRect().top + scrollY;
-      const headerBottom = header.getBoundingClientRect().bottom + scrollY;
-      const maxTop = ourFacilityTop - emailButton.offsetHeight;
-
-      const buttonTop = Math.min(Math.max(scrollY + windowHeight / 2, headerBottom + 10), maxTop);
-      emailButton.style.top = buttonTop + 'px';
-    }
-  }
-
-  window.addEventListener('scroll', updateButtonPosition);
-  window.addEventListener('resize', updateButtonPosition);
-
-  updateButtonPosition();
-});
-
-</script>
 </body>
 </html>
