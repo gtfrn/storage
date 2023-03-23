@@ -159,14 +159,14 @@ header {
 }
 #email-button {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 10px;
+  right: 10px;
   z-index: 1000;
 }
 
 #email-button button {
-  font-size: 14px;
-  padding: 10px 20px;
+  font-size: 12px;
+  padding: 8px 16px;
   background-color: #1a73e8;
   color: white;
   border: none;
@@ -179,16 +179,4 @@ header {
 
 #email-button button:hover {
   background-color: #1669d2;
-}
-
-@media screen and (max-width: 600px) {
-  #email-button {
-    bottom: 10px;
-    right: 10px;
-  }
-
-  #email-button button {
-    font-size: 12px;
-    padding: 8px 16px;
-  }
 }
