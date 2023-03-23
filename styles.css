@@ -209,12 +209,13 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20px; /* adjust as needed */
-  margin-left: auto; /* Add this line to center the header */
-  margin-right: auto;
 }
 
 .24-hour-access span {
-  font-size: 40px; /* adjust as needed */
-  margin-bottom: 10px; /* adjust as needed */
+  font-size: 40px;
+}
+
+.24-hour-access p {
+  font-size: 14px;
+  margin-top: 10px;
 }
