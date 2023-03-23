@@ -166,8 +166,8 @@ header {
 
 #email-button button {
   width: 40px;
-  height: 60px;
-  color: black;
+  height: 40px;
+  color: transparent;
   border: 2px solid black;
   border-radius: 4px;
   cursor: pointer;
