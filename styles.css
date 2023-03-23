@@ -157,3 +157,23 @@ header {
     border-radius: 6px;
   
 }
+.email-button {
+  position: fixed;
+  left: 25px;
+  top: 97%;
+  transform: translateY(-50%);
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.email-button:hover {
+  background-color: #0056b3;
+}
