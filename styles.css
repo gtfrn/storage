@@ -165,8 +165,8 @@ header {
 }
 
 #email-button button {
-  font-size: 12px;
-  padding: 8px 16px;
+  width: 40px;
+  height: 40px;
   background-color: #1a73e8;
   color: white;
   border: none;
@@ -175,6 +175,8 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-size: 12px;
+  line-height: 40px;
 }
 
 #email-button button:hover {
