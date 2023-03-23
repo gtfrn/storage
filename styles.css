@@ -210,6 +210,8 @@ header {
   align-items: center;
   justify-content: center;
   margin-top: 20px; /* adjust as needed */
+  margin-left: auto; /* Add this line to center the header */
+  margin-right: auto;
 }
 
 .24-hour-access span {
