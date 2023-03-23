@@ -157,6 +157,13 @@ header {
     border-radius: 6px;
   
 }
+@media (max-width: 768px) {
+  .email-button {
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+  }
+}
 .email-button {
   position: fixed;
   left: 30px;
