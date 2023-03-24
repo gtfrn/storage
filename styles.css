@@ -162,20 +162,18 @@ header {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  z-index: 1000;
+  z-index: 100;
 }
 
 #email-button button {
   width: 40px;
   height: 40px;
-  color: transparent;
-  border: 2px solid black;
-  border-radius: 4px;
+  color: none;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 40px;
 }
 
