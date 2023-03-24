@@ -144,7 +144,26 @@ header {
   .square-btn:last-child {
     margin-right: 0;
   }
+  .directions-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    border: none;
+    background-color: grey;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  .map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 350px;
+  margin: auto;
 }
+
 .facility-heading {
     font-size: 24px;
     text-align: center;
