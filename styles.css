@@ -159,6 +159,7 @@ header {
 
 }
 .email-button {
+  position.email-button {
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -174,8 +175,9 @@ header {
   display: inline-block;
   font-size: 14px;
   line-height: 40px;
-  background: none; /* Add this line to remove the background */
+  background: transparent; /* Change 'none' to 'transparent' to remove the background */
   border: none; /* Add this line to remove the border */
+  padding: 0; /* Add this line to remove padding */
 }
 
 /* Add this style for the directions button */
