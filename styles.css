@@ -144,26 +144,7 @@ header {
   .square-btn:last-child {
     margin-right: 0;
   }
-  .directions-btn {
-    display: inline-block;
-    padding: 5px 10px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #000;
-    text-decoration: none;
-    border: none;
-    background-color: grey;
-    border-radius: 4px;
-    margin-top: 10px;
-  }
-  .map-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 350px;
-  margin: auto;
 }
-
 .facility-heading {
     font-size: 24px;
     text-align: center;
@@ -197,6 +178,36 @@ header {
   font-size: 12px;
   line-height: 40px;
 }
+
+/* Add this style for the directions button */
+.directions-btn {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 8px;
+  padding: 6px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  width: 100px;
+  margin-left: calc(50% - 175px);
+  display: block; /* Change the display to block */
+}
+
+/* Add this media query to adjust the layout for larger screens */
+@media screen and (min-width: 768px) {
+  /* Adjust the margin for the directions button */
+  .directions-btn {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+}
+
+
 .info-section {
   font-size: 24px;
   text-align: center;
