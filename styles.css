@@ -8,6 +8,7 @@ body {
   background-color: rgba(0, 128, 128, 0.5);
   backdrop-filter: blur(10px);
   font-family: Arial, sans-serif;
+  margin-bottom: 50px;
 }
 
 header {
@@ -203,4 +204,35 @@ header {
   text-align: center;
   font-size: 18px;
   width: 100%; /* Full width of container */
+}
+.emoji-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.emoji-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 25px; /* Add this property to set left and right margins */
+}
+
+.emoji-row {
+  display: flex;
+  justify-content: center;
+}
+
+.emoji {
+  font-size: 35px;
+}
+
+.access-text {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
 }
