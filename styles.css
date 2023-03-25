@@ -264,3 +264,7 @@ header {
   text-align: center;
   margin-top: 5px;
 }
+
+.emoji-ccw {
+  margin-right: 3px;
+}
