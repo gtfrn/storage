@@ -232,8 +232,15 @@ header {
   align-items: center;
   flex-direction: row;
   margin: 0 auto;
+  margin-bottom: 20px; /* Add margin-bottom to separate the containers */
 }
 
+.emoji-box-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .emoji-box {
   display: flex;
   justify-content: center;
