@@ -158,6 +158,26 @@ header {
     border-radius: 6px;
 
 }
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  max-width: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 #email-button {
   position: fixed;
   bottom: 10px;
