@@ -162,7 +162,7 @@ header {
   position: relative;
   width: 100%;
   max-width: 350px;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
 }
 
 .slide {
